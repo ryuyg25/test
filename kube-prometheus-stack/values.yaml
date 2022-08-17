@@ -802,10 +802,7 @@ grafana:
     #   action: replace
 
   ## Customize values
-  image:
-    repository: docker.io/grafana/grafana
-    tag: 8.5.6
-    pullPolicy: IfNotPresent
+
   
   persistence:
     enabled: true
