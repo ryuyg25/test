@@ -23,7 +23,7 @@ version: 0.1.0
 appVersion: "1.0"
 
 dependencies:
-- name: kube-prometheus-stack
+- name: pr-test
   version: 32.2.1
   repository: file://../pr-test
 #  repository: https://prometheus-community.github.io/helm-charts
