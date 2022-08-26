@@ -1,2 +1,4 @@
 resources:
+- prometheus-pv.yaml
+- grafana-pv.yaml
 - all.yaml
