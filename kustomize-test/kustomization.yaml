@@ -1,6 +1,6 @@
 resources:
 - ./all.yaml
 
-patches:
-- overlays/prometheus-pv.yaml
-- overlays/grafana-pv.yaml
+#patches:
+#- overlays/prometheus-pv.yaml
+#- overlays/grafana-pv.yaml
