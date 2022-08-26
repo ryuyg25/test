@@ -1,0 +1,16 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: kube-prometheus-stack-server-pv-volume
+  labels:
+    type: kube-prometheus-stack-server-pv
+spec:
+  storageClassName: nfs-client
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  nfs:
+    server: 172.29.37.240
+    path:  /data/prometheus
