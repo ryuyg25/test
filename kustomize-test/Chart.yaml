@@ -24,9 +24,9 @@ appVersion: "1.0"
 
 dependencies:
 - name: kube-prometheus-stack
-  version: 0.1.0
-  repository: file://../pr-test
-#  repository: https://prometheus-community.github.io/helm-charts
+  version: 32.1.0
+#  repository: file://../pr-test
+  repository: https://prometheus-community.github.io/helm-charts
 #- condition: kube-prometheus-stack.kubeStateMetrics.enabled
 #  name: kube-state-metrics
 #  repository: https://prometheus-community.github.io/helm-charts
