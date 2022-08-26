@@ -1,4 +1,3 @@
 namePrefix: kube-prometheus-stack
-
 resources:
 - all.yaml
