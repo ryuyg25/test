@@ -1,7 +1,6 @@
-namePrefix: kustomize-
-
 resources:
 - ./all.yaml
 
 patches:
-- overlays/guestbook-deployment.yaml
+- overlays/prometheus-pv.yaml
+- overlays/grafana-pv.yaml
